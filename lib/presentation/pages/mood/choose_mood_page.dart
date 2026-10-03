@@ -1,15 +1,16 @@
 import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
-import 'package:my_management_client/common/app_color.dart';
-import 'package:my_management_client/common/enums.dart';
-import 'package:my_management_client/common/info.dart';
-import 'package:my_management_client/core/session.dart';
-import 'package:my_management_client/data/models/user_model.dart';
-import 'package:my_management_client/presentation/controllers/choose_mood_controller.dart';
-import 'package:my_management_client/presentation/controllers/home/mood_today_controller.dart';
-import 'package:my_management_client/presentation/widgets/custom_button.dart';
+import 'package:my_management/common/app_color.dart';
+import 'package:my_management/common/enums.dart';
+import 'package:my_management/common/info.dart';
+import 'package:my_management/core/session.dart';
+import 'package:my_management/data/models/user_model.dart';
+import 'package:my_management/presentation/controllers/choose_mood_controller.dart';
+import 'package:my_management/presentation/controllers/home/mood_today_controller.dart';
+import 'package:my_management/presentation/widgets/custom_button.dart';
 
 class ChooseMoodPage extends StatefulWidget {
   const ChooseMoodPage({super.key});

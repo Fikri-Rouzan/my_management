@@ -1,18 +1,19 @@
 import 'dart:math';
+
 import 'package:calendar_view/calendar_view.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:my_management_client/common/app_color.dart';
-import 'package:my_management_client/common/enums.dart';
-import 'package:my_management_client/core/session.dart';
-import 'package:my_management_client/data/models/agenda_model.dart';
-import 'package:my_management_client/presentation/controllers/all_agenda/agenda_selected_controller.dart';
-import 'package:my_management_client/presentation/controllers/all_agenda/all_agenda_controller.dart';
-import 'package:my_management_client/presentation/pages/agenda/add_agenda_page.dart';
-import 'package:my_management_client/presentation/pages/agenda/detail_agenda_page.dart';
-import 'package:my_management_client/presentation/widgets/response_failed.dart';
+import 'package:my_management/common/app_color.dart';
+import 'package:my_management/common/enums.dart';
+import 'package:my_management/core/session.dart';
+import 'package:my_management/data/models/agenda_model.dart';
+import 'package:my_management/presentation/controllers/all_agenda/agenda_selected_controller.dart';
+import 'package:my_management/presentation/controllers/all_agenda/all_agenda_controller.dart';
+import 'package:my_management/presentation/pages/agenda/add_agenda_page.dart';
+import 'package:my_management/presentation/pages/agenda/detail_agenda_page.dart';
+import 'package:my_management/presentation/widgets/response_failed.dart';
 
 class AllAgendaPage extends StatefulWidget {
   const AllAgendaPage({super.key});

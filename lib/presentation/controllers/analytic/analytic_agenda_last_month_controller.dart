@@ -1,7 +1,7 @@
 import 'package:d_chart/d_chart.dart';
 import 'package:get/get.dart';
-import 'package:my_management_client/common/enums.dart';
-import 'package:my_management_client/data/datasources/agenda_remote_data_source.dart';
+import 'package:my_management/common/enums.dart';
+import 'package:my_management/data/datasources/agenda_remote_data_source.dart';
 
 class AnalyticAgendaLastMonthController extends GetxController {
   final _state = AnalyticAgendaLastMonthState(

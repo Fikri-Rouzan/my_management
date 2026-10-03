@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
-import 'package:my_management_client/common/app_color.dart';
-import 'package:my_management_client/common/enums.dart';
-import 'package:my_management_client/data/models/solution_model.dart';
-import 'package:my_management_client/presentation/controllers/detail_solution_controller.dart';
-import 'package:my_management_client/presentation/widgets/response_failed.dart';
+import 'package:my_management/common/app_color.dart';
+import 'package:my_management/common/enums.dart';
+import 'package:my_management/data/models/solution_model.dart';
+import 'package:my_management/presentation/controllers/detail_solution_controller.dart';
+import 'package:my_management/presentation/widgets/response_failed.dart';
 
 class DetailSolutionPage extends StatefulWidget {
   const DetailSolutionPage({super.key, required this.solutionId});

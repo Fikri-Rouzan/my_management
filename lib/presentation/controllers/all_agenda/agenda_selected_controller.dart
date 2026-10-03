@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:my_management_client/data/models/agenda_model.dart';
+import 'package:my_management/data/models/agenda_model.dart';
 
 class AgendaSelectedController extends GetxController {
   final _state = AgendaModel(

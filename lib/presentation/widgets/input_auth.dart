@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_management_client/common/app_color.dart';
+import 'package:my_management/common/app_color.dart';
 
 class InputAuth extends StatefulWidget {
   const InputAuth({

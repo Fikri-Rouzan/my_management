@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_management_client/common/app_color.dart';
-import 'package:my_management_client/core/session.dart';
-import 'package:my_management_client/data/models/solution_model.dart';
-import 'package:my_management_client/presentation/pages/account_page.dart';
-import 'package:my_management_client/presentation/pages/agenda/add_agenda_page.dart';
-import 'package:my_management_client/presentation/pages/agenda/all_agenda_page.dart';
-import 'package:my_management_client/presentation/pages/agenda/detail_agenda_page.dart';
-import 'package:my_management_client/presentation/pages/chat_ai_page.dart';
-import 'package:my_management_client/presentation/pages/dashboard_page.dart';
-import 'package:my_management_client/presentation/pages/login_page.dart';
-import 'package:my_management_client/presentation/pages/mood/choose_mood_page.dart';
-import 'package:my_management_client/presentation/pages/register_page.dart';
-import 'package:my_management_client/presentation/pages/solution/add_solution_page.dart';
-import 'package:my_management_client/presentation/pages/solution/detail_solution_page.dart';
-import 'package:my_management_client/presentation/pages/solution/update_solution_page.dart';
+import 'package:my_management/common/app_color.dart';
+import 'package:my_management/core/session.dart';
+import 'package:my_management/data/models/solution_model.dart';
+import 'package:my_management/presentation/pages/account_page.dart';
+import 'package:my_management/presentation/pages/agenda/add_agenda_page.dart';
+import 'package:my_management/presentation/pages/agenda/all_agenda_page.dart';
+import 'package:my_management/presentation/pages/agenda/detail_agenda_page.dart';
+import 'package:my_management/presentation/pages/chat_ai_page.dart';
+import 'package:my_management/presentation/pages/dashboard_page.dart';
+import 'package:my_management/presentation/pages/login_page.dart';
+import 'package:my_management/presentation/pages/mood/choose_mood_page.dart';
+import 'package:my_management/presentation/pages/register_page.dart';
+import 'package:my_management/presentation/pages/solution/add_solution_page.dart';
+import 'package:my_management/presentation/pages/solution/detail_solution_page.dart';
+import 'package:my_management/presentation/pages/solution/update_solution_page.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

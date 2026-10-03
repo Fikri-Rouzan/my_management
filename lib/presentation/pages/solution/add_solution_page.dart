@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
-import 'package:my_management_client/common/app_color.dart';
-import 'package:my_management_client/common/enums.dart';
-import 'package:my_management_client/common/info.dart';
-import 'package:my_management_client/core/session.dart';
-import 'package:my_management_client/data/models/solution_model.dart';
-import 'package:my_management_client/presentation/controllers/add_solution_controller.dart';
-import 'package:my_management_client/presentation/controllers/solution_controller.dart';
-import 'package:my_management_client/presentation/widgets/custom_button.dart';
-import 'package:my_management_client/presentation/widgets/custom_input.dart';
+import 'package:my_management/common/app_color.dart';
+import 'package:my_management/common/enums.dart';
+import 'package:my_management/common/info.dart';
+import 'package:my_management/core/session.dart';
+import 'package:my_management/data/models/solution_model.dart';
+import 'package:my_management/presentation/controllers/add_solution_controller.dart';
+import 'package:my_management/presentation/controllers/solution_controller.dart';
+import 'package:my_management/presentation/widgets/custom_button.dart';
+import 'package:my_management/presentation/widgets/custom_input.dart';
 
 class AddSolutionPage extends StatefulWidget {
   const AddSolutionPage({super.key});

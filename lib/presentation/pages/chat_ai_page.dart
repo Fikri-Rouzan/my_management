@@ -1,13 +1,14 @@
 import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
-import 'package:my_management_client/common/app_color.dart';
-import 'package:my_management_client/common/info.dart';
-import 'package:my_management_client/data/models/item_chat_model.dart';
-import 'package:my_management_client/presentation/controllers/chat_ai_controller.dart';
-import 'package:my_management_client/presentation/widgets/custom_input.dart';
+import 'package:my_management/common/app_color.dart';
+import 'package:my_management/common/info.dart';
+import 'package:my_management/data/models/item_chat_model.dart';
+import 'package:my_management/presentation/controllers/chat_ai_controller.dart';
+import 'package:my_management/presentation/widgets/custom_input.dart';
 
 class ChatAIPage extends StatefulWidget {
   const ChatAIPage({super.key});

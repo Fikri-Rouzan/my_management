@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:my_management_client/common/enums.dart';
-import 'package:my_management_client/data/datasources/solution_remote_data_source.dart';
+import 'package:my_management/common/enums.dart';
+import 'package:my_management/data/datasources/solution_remote_data_source.dart';
 
 class DeleteSolutionController extends GetxController {
   final _state = DeleteSolutionState(

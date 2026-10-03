@@ -1,12 +1,13 @@
 import 'dart:io';
 import 'dart:typed_data';
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:my_management_client/common/constants.dart';
-import 'package:my_management_client/common/logging.dart';
-import 'package:my_management_client/data/models/item_chat_model.dart';
+import 'package:my_management/common/constants.dart';
+import 'package:my_management/common/logging.dart';
+import 'package:my_management/data/models/item_chat_model.dart';
 
 class ChatAIController extends GetxController {
   late final GenerativeModel _model;

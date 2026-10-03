@@ -1,7 +1,7 @@
 import 'package:d_chart/d_chart.dart';
 import 'package:get/get.dart';
-import 'package:my_management_client/common/enums.dart';
-import 'package:my_management_client/data/datasources/mood_remote_data_source.dart';
+import 'package:my_management/common/enums.dart';
+import 'package:my_management/data/datasources/mood_remote_data_source.dart';
 
 class AnalyticMoodLastMonthController extends GetxController {
   final _state = AnalyticMoodLastMonthState(

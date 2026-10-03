@@ -1,11 +1,11 @@
 import 'package:d_info/d_info.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:my_management_client/common/app_color.dart';
-import 'package:my_management_client/core/session.dart';
-import 'package:my_management_client/presentation/widgets/bottom_clip_painter.dart';
-import 'package:my_management_client/presentation/widgets/custom_button.dart';
-import 'package:my_management_client/presentation/widgets/top_clip_painter.dart';
+import 'package:my_management/common/app_color.dart';
+import 'package:my_management/core/session.dart';
+import 'package:my_management/presentation/widgets/bottom_clip_painter.dart';
+import 'package:my_management/presentation/widgets/custom_button.dart';
+import 'package:my_management/presentation/widgets/top_clip_painter.dart';
 
 class AccountPage extends StatefulWidget {
   const AccountPage({super.key});

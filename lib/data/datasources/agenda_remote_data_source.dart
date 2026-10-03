@@ -1,9 +1,10 @@
 import 'dart:convert';
+
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
-import 'package:my_management_client/common/logging.dart';
-import 'package:my_management_client/core/api.dart';
-import 'package:my_management_client/data/models/agenda_model.dart';
+import 'package:my_management/common/logging.dart';
+import 'package:my_management/core/api.dart';
+import 'package:my_management/data/models/agenda_model.dart';
 
 class AgendaRemoteDataSource {
   static Future<(bool, String)> add(AgendaModel agenda) async {
@@ -108,9 +109,8 @@ class AgendaRemoteDataSource {
   static Future<(bool, String, List<AgendaModel>?)> today(int userId) async {
     Uri url = Uri.parse('${API.baseURL}/api/agendas/today.php');
     DateTime now = DateTime.now();
-    String startDate = DateFormat(
-      'yyyy-MM-dd',
-    ).format(DateTime(now.year, now.month, now.day));
+    String startDate = DateFormat('yyyy-MM-dd')
+        .format(DateTime(now.year, now.month, now.day));
 
     try {
       final response = await http.post(
@@ -144,9 +144,8 @@ class AgendaRemoteDataSource {
   static Future<(bool, String, List?)> analytic(int userId) async {
     Uri url = Uri.parse('${API.baseURL}/api/agendas/analytic.php');
     DateTime now = DateTime.now();
-    String startDate = DateFormat(
-      'yyyy-MM-dd',
-    ).format(DateTime(now.year, now.month, 1));
+    String startDate = DateFormat('yyyy-MM-dd')
+        .format(DateTime(now.year, now.month, 1));
 
     try {
       final response = await http.post(

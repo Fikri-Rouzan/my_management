@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:my_management_client/common/app_color.dart';
-import 'package:my_management_client/common/enums.dart';
-import 'package:my_management_client/common/info.dart';
-import 'package:my_management_client/data/models/agenda_model.dart';
-import 'package:my_management_client/presentation/controllers/detail_agenda/delete_agenda_controller.dart';
-import 'package:my_management_client/presentation/controllers/detail_agenda/detail_agenda_controller.dart';
-import 'package:my_management_client/presentation/widgets/custom_button.dart';
-import 'package:my_management_client/presentation/widgets/response_failed.dart';
+import 'package:my_management/common/app_color.dart';
+import 'package:my_management/common/enums.dart';
+import 'package:my_management/common/info.dart';
+import 'package:my_management/data/models/agenda_model.dart';
+import 'package:my_management/presentation/controllers/detail_agenda/delete_agenda_controller.dart';
+import 'package:my_management/presentation/controllers/detail_agenda/detail_agenda_controller.dart';
+import 'package:my_management/presentation/widgets/custom_button.dart';
+import 'package:my_management/presentation/widgets/response_failed.dart';
 
 class DetailAgendaPage extends StatefulWidget {
   const DetailAgendaPage({super.key, required this.agendaId});

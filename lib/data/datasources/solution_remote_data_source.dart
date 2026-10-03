@@ -1,8 +1,9 @@
 import 'dart:convert';
+
 import 'package:http/http.dart' as http;
-import 'package:my_management_client/common/logging.dart';
-import 'package:my_management_client/core/api.dart';
-import 'package:my_management_client/data/models/solution_model.dart';
+import 'package:my_management/common/logging.dart';
+import 'package:my_management/core/api.dart';
+import 'package:my_management/data/models/solution_model.dart';
 
 class SolutionRemoteDataSource {
   static Future<(bool, String)> add(SolutionModel solution) async {

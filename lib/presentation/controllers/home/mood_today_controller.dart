@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:my_management_client/common/enums.dart';
-import 'package:my_management_client/data/datasources/mood_remote_data_source.dart';
-import 'package:my_management_client/data/models/mood_model.dart';
+import 'package:my_management/common/enums.dart';
+import 'package:my_management/data/datasources/mood_remote_data_source.dart';
+import 'package:my_management/data/models/mood_model.dart';
 
 class MoodTodayController extends GetxController {
   final _state = MoodTodayState(

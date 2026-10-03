@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:my_management_client/common/enums.dart';
-import 'package:my_management_client/core/session.dart';
-import 'package:my_management_client/data/datasources/user_remote_data_source.dart';
+import 'package:my_management/common/enums.dart';
+import 'package:my_management/core/session.dart';
+import 'package:my_management/data/datasources/user_remote_data_source.dart';
 
 class LoginController extends GetxController {
   final _state = LoginState(message: '', statusRequest: StatusRequest.init).obs;

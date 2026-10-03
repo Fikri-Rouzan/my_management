@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:my_management_client/common/enums.dart';
-import 'package:my_management_client/data/datasources/agenda_remote_data_source.dart';
-import 'package:my_management_client/data/models/agenda_model.dart';
+import 'package:my_management/common/enums.dart';
+import 'package:my_management/data/datasources/agenda_remote_data_source.dart';
+import 'package:my_management/data/models/agenda_model.dart';
 
 class AgendaTodayController extends GetxController {
   final _state = AgendaTodayState(

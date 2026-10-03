@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
-import 'package:my_management_client/common/app_color.dart';
-import 'package:my_management_client/common/enums.dart';
-import 'package:my_management_client/common/info.dart';
-import 'package:my_management_client/presentation/controllers/register_controller.dart';
-import 'package:my_management_client/presentation/pages/login_page.dart';
-import 'package:my_management_client/presentation/widgets/custom_button.dart';
-import 'package:my_management_client/presentation/widgets/input_auth.dart';
-import 'package:my_management_client/presentation/widgets/top_clip_painter.dart';
+import 'package:my_management/common/app_color.dart';
+import 'package:my_management/common/enums.dart';
+import 'package:my_management/common/info.dart';
+import 'package:my_management/presentation/controllers/register_controller.dart';
+import 'package:my_management/presentation/pages/login_page.dart';
+import 'package:my_management/presentation/widgets/custom_button.dart';
+import 'package:my_management/presentation/widgets/input_auth.dart';
+import 'package:my_management/presentation/widgets/top_clip_painter.dart';
 
 class RegisterPage extends StatefulWidget {
   const RegisterPage({super.key});

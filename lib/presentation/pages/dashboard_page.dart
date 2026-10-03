@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:my_management_client/common/app_color.dart';
-import 'package:my_management_client/presentation/pages/fragments/analytic_fragment.dart';
-import 'package:my_management_client/presentation/pages/fragments/home_fragment.dart';
-import 'package:my_management_client/presentation/pages/fragments/solution_fragment.dart';
+import 'package:my_management/common/app_color.dart';
+import 'package:my_management/presentation/pages/fragments/analytic_fragment.dart';
+import 'package:my_management/presentation/pages/fragments/home_fragment.dart';
+import 'package:my_management/presentation/pages/fragments/solution_fragment.dart';
 
 class DashboardPage extends StatefulWidget {
   const DashboardPage({super.key});

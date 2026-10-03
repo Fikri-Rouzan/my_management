@@ -1,5 +1,5 @@
 import 'package:d_session/d_session.dart';
-import 'package:my_management_client/data/models/user_model.dart';
+import 'package:my_management/data/models/user_model.dart';
 
 class Session {
   static Future<bool> saveUser(Map<String, dynamic> data) async {

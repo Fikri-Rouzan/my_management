@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
-import 'package:my_management_client/common/app_color.dart';
-import 'package:my_management_client/common/enums.dart';
-import 'package:my_management_client/core/session.dart';
-import 'package:my_management_client/data/models/solution_model.dart';
-import 'package:my_management_client/presentation/controllers/solution_controller.dart';
-import 'package:my_management_client/presentation/pages/solution/add_solution_page.dart';
-import 'package:my_management_client/presentation/pages/solution/detail_solution_page.dart';
-import 'package:my_management_client/presentation/pages/solution/update_solution_page.dart';
-import 'package:my_management_client/presentation/widgets/response_failed.dart';
+import 'package:my_management/common/app_color.dart';
+import 'package:my_management/common/enums.dart';
+import 'package:my_management/core/session.dart';
+import 'package:my_management/data/models/solution_model.dart';
+import 'package:my_management/presentation/controllers/solution_controller.dart';
+import 'package:my_management/presentation/pages/solution/add_solution_page.dart';
+import 'package:my_management/presentation/pages/solution/detail_solution_page.dart';
+import 'package:my_management/presentation/pages/solution/update_solution_page.dart';
+import 'package:my_management/presentation/widgets/response_failed.dart';
 
 class SolutionFragment extends StatefulWidget {
   const SolutionFragment({super.key});

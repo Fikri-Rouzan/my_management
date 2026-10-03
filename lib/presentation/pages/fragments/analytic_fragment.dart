@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:my_management_client/common/app_color.dart';
-import 'package:my_management_client/common/enums.dart';
-import 'package:my_management_client/core/session.dart';
-import 'package:my_management_client/presentation/controllers/analytic/analytic_agenda_last_month_controller.dart';
-import 'package:my_management_client/presentation/controllers/analytic/analytic_mood_last_month_controller.dart';
-import 'package:my_management_client/presentation/controllers/analytic/analytic_mood_today_controller.dart';
-import 'package:my_management_client/presentation/widgets/response_failed.dart';
+import 'package:my_management/common/app_color.dart';
+import 'package:my_management/common/enums.dart';
+import 'package:my_management/core/session.dart';
+import 'package:my_management/presentation/controllers/analytic/analytic_agenda_last_month_controller.dart';
+import 'package:my_management/presentation/controllers/analytic/analytic_mood_last_month_controller.dart';
+import 'package:my_management/presentation/controllers/analytic/analytic_mood_today_controller.dart';
+import 'package:my_management/presentation/widgets/response_failed.dart';
 
 class AnalyticFragment extends StatefulWidget {
   const AnalyticFragment({super.key});

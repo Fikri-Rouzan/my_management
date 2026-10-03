@@ -1,8 +1,9 @@
 import 'dart:convert';
-import 'package:my_management_client/common/logging.dart';
-import 'package:my_management_client/core/api.dart';
+
+import 'package:my_management/common/logging.dart';
+import 'package:my_management/core/api.dart';
 import 'package:http/http.dart' as http;
-import 'package:my_management_client/data/models/user_model.dart';
+import 'package:my_management/data/models/user_model.dart';
 
 class UserRemoteDataSource {
   static Future<(bool, String)> register(
