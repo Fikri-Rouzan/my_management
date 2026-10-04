@@ -9,21 +9,20 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  fluttertoast: ^8.2.12
+  calendar_view: ^1.4.0
+  d_chart: ^2.10.5
+  d_info: ^0.2.0
   d_session: ^0.0.3
   fd_log: ^0.0.8
-  http: ^1.5.0
-  intl: ^0.20.2
-  get: ^4.7.2
-  gap: ^3.0.1
-  google_fonts: ^6.2.1
-  d_info: ^0.2.0
-  d_chart: ^2.10.5
-  calendar_view: ^1.4.0
-  google_generative_ai: ^0.4.7
-  flutter_markdown: ^0.7.7+1
-  image_picker: ^1.2.0
+  fluttertoast: ^8.2.12
   flutter_dotenv: ^6.0.0
+  flutter_markdown: ^0.7.7+1
+  gap: ^3.0.1
+  get: ^4.7.2
+  google_fonts: ^6.2.1
+  http: ^1.5.0
+  image_picker: ^1.2.0
+  intl: ^0.20.2
 
 dev_dependencies:
   flutter_test:
