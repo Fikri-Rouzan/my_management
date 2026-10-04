@@ -1,13 +1,18 @@
-# My Management (Client)
+# My Management
 
-## ℹ️ About
+## 📌 Description
 
-## ✨ Features
+---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- 🌐 **Programming Language:** Dart.
-- 🧩 **Framework:** Flutter.
-- ⚛️ **Libraries:** fluttertoast, d_session, fd_log, http, intl, GetX, Gap, google_fonts, D'Info, d_chart, calendar_view, Google Generative AI, Flutter Markdown, Image Picker, and flutter_dotenv.
-- 🤖 **AI Service:** Google Gemini.
-- 💻 **Software:** Visual Studio Code.
+| Category                    | Technologies Used                                                                                                                                                                      |
+| :-------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 🌐 **Programming Language** | `Dart`                                                                                                                                                                                 |
+| 🧩 **Framework**            | `Flutter`                                                                                                                                                                              |
+| ⚛️ **Libraries**            | `flutter_dotenv`, `http`, `d_session`, `fd_log`, `intl`, `GetX`, `Gap`, `fluttertoast`,<br>`D'Info`, `d_chart`, `Calendar View`, `Image Picker`, `Flutter Markdown`,<br>`google_fonts` |
+| 🤖 **Generative AI Model**  | `Google Gemini`                                                                                                                                                                        |
+
+---
+
+## ⚙️ Setup Instructions
