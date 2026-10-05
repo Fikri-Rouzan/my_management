@@ -72,7 +72,7 @@ class _ChatAIPageState extends State<ChatAIPage> {
     return Scaffold(
       body: Column(
         children: [
-          const Gap(40),
+          const Gap(52),
           buildHeader(),
           Expanded(child: buildList()),
           buildInputChat(),
@@ -184,68 +184,71 @@ class _ChatAIPageState extends State<ChatAIPage> {
   }
 
   Widget buildInputChat() {
-    return Container(
-      padding: const EdgeInsets.all(8),
-      decoration: const BoxDecoration(
-        borderRadius: BorderRadius.only(
-          topLeft: Radius.circular(20),
-          topRight: Radius.circular(20),
+    return SafeArea(
+      top: false,
+      child: Container(
+        padding: const EdgeInsets.fromLTRB(12, 8, 12, 32),
+        decoration: const BoxDecoration(
+          borderRadius: BorderRadius.only(
+            topLeft: Radius.circular(20),
+            topRight: Radius.circular(20),
+          ),
+          color: Colors.white,
         ),
-        color: Colors.white,
-      ),
-      child: Obx(() {
-        if (chatAIController.loading) {
-          return const Center(child: CircularProgressIndicator());
-        }
+        child: Obx(() {
+          if (chatAIController.loading) {
+            return const Center(child: CircularProgressIndicator());
+          }
 
-        final xFile = chatAIController.image;
+          final xFile = chatAIController.image;
 
-        return Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            if (!chatAIController.noImage)
-              Padding(
-                padding: const EdgeInsets.all(8),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(8),
-                  child: Image.file(
-                    File(xFile.path),
-                    fit: BoxFit.fitHeight,
-                    height: 120,
+          return Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              if (!chatAIController.noImage)
+                Padding(
+                  padding: const EdgeInsets.all(8),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: Image.file(
+                      File(xFile.path),
+                      fit: BoxFit.fitHeight,
+                      height: 120,
+                    ),
                   ),
                 ),
+              Row(
+                children: [
+                  Expanded(
+                    child: CustomInput(
+                      controller: promptController,
+                      hint: 'Input prompt...',
+                      suffixIcon: 'assets/icons/image.png',
+                      suffixOnTap: () => chatAIController.pickImage(),
+                      maxLines: 1,
+                    ),
+                  ),
+                  const Gap(16),
+                  FloatingActionButton(
+                    onPressed: sendMessage,
+                    backgroundColor: Colors.white,
+                    elevation: 0,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20),
+                      side: const BorderSide(width: 2, color: AppColor.primary),
+                    ),
+                    child: const ImageIcon(
+                      AssetImage('assets/icons/send.png'),
+                      size: 24,
+                      color: AppColor.primary,
+                    ),
+                  ),
+                ],
               ),
-            Row(
-              children: [
-                Expanded(
-                  child: CustomInput(
-                    controller: promptController,
-                    hint: 'Input prompt...',
-                    suffixIcon: 'assets/icons/image.png',
-                    suffixOnTap: () => chatAIController.pickImage(),
-                    maxLines: 1,
-                  ),
-                ),
-                const Gap(16),
-                FloatingActionButton(
-                  onPressed: sendMessage,
-                  backgroundColor: Colors.white,
-                  elevation: 0,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(20),
-                    side: const BorderSide(width: 2, color: AppColor.primary),
-                  ),
-                  child: const ImageIcon(
-                    AssetImage('assets/icons/send.png'),
-                    size: 24,
-                    color: AppColor.primary,
-                  ),
-                ),
-              ],
-            ),
-          ],
-        );
-      }),
+            ],
+          );
+        }),
+      ),
     );
   }
 }
